@@ -1,0 +1,50 @@
+
+
+.carousel{
+	position: relative;
+	overflow: hidden;
+	width: 500px;
+	height: 100px;
+}
+
+.carousel .back-button{
+	position: absolute;
+    left: 1px;
+    top: 40%;
+    display: block;
+    width: 30px;
+}
+
+.carousel .next-button{
+	position: absolute;
+    right: 1px;
+    top: 40%;
+    display: block;
+    width: 30px;
+}
+
+.carousel .carousel-content{
+    position: relative;
+    margin: 0px 30px;
+    height: 100px;
+    overflow: hidden;
+}
+
+
+.carousel ul{
+	overflow: hidden;
+	width: 2000px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.carousel li{
+	list-style-type: none;
+	float: left;
+	margin: 0px 15px;
+}
+
